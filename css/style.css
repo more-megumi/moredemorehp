@@ -138,10 +138,36 @@ section h2 span {
 	display: none;
 }
 
+#gallery{
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
 #gallery li{
-	float: left;
-	width: calc(100%/3);
-	line-height: 0;
+
+    width: 33.3333%;
+
+    list-style: none;
+
+}
+
+#gallery img{
+
+    display: block;
+
+    width: 100%;
+
+    aspect-ratio: 4 / 3;
+
+    object-fit: cover;
+
 }
 
 #gallery img{
